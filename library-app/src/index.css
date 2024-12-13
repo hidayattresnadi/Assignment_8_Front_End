@@ -1,0 +1,30 @@
+.page-link:focus {
+    outline: none;
+    /* Menghilangkan border fokus */
+    box-shadow: none;
+    /* Menghapus efek bayangan */
+}
+
+.not-clickable {
+    pointer-events: none;
+    cursor: default;
+}
+
+.outlet-content {
+    padding-bottom: 200px; /* Sesuaikan dengan tinggi footer */
+}
+
+.recharts-legend-wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.recharts-pie-label text tspan {
+    dy: -0.5em !important; /* Geser vertikal ke atas */
+}
+/* footer {
+    position: relative;
+    z-index: 10;
+} */
+
